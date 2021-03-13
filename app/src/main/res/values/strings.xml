@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Submission</string>
+    <string name="nama_smartphone">Nama Smartphone</string>
+    <string name="merk_smartphone">Merk Smartphone</string>
+    <string name="about_me">About me</string>
+    <string name="developer_name">Muhammad Ridwan Syahputra Lubis</string>
+    <string name="developer_mail">a3192863@bangkit.academy</string>
+    <string name="cek_spek">Cek Spesifikasi</string>
+    <string name="tanggal_rilis">TANGGAL RILIS</string>
+    <string name="tanggal_rilis2">Tanggal Rilis</string>
+    <string name="tanggalnya">Tanggalnya</string>
+    <string name="display">DISPLAY</string>
+    <string name="tipe">Tipe</string>
+    <string name="tipenya">Tipenya</string>
+    <string name="resolusi">Resolusi</string>
+    <string name="resolusinya">Resolusinya</string>
+    <string name="platform">PLATFORM</string>
+    <string name="chipset">Chipset</string>
+    <string name="chipsetnya">Chipsetnya</string>
+    <string name="cpu">CPU</string>
+    <string name="cpunya">cpunya</string>
+    <string name="gpu">GPU</string>
+    <string name="gpunya">gpunya</string>
+    <string name="memori">MEMORI</string>
+    <string name="card_slot">Card slot</string>
+    <string name="cardslot">cardslot</string>
+    <string name="internal">Internal</string>
+    <string name="berapa">berapa</string>
+    <string name="nama_smartphone_detail">Nama Smartphone</string>
+    <string name="sumber">Sumber data didapatkan dari gsmarena.com</string>
+</resources>

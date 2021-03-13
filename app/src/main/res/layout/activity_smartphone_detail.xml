@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SmartphoneDetail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+    <ImageView
+        android:id="@+id/current_smartphone"
+        android:layout_width="160dp"
+        android:layout_height="212dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/docomo"/>
+
+        <TextView
+            style="@style/TextMerk"
+            android:id="@+id/merk_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/current_smartphone"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="3dp"
+            android:background="@drawable/background_merk_textview"
+            tools:src="Merk Smartphone"/>
+
+    <TextView
+        android:id="@+id/smartphone_nama_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/current_smartphone"
+        android:layout_below="@id/merk_detail"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/gotham_medium"
+        android:textSize="31sp"
+        android:text="@string/nama_smartphone_detail"/>
+    
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/current_smartphone"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TableRow
+            style="@style/TableHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVHeader"
+                android:text="@string/tanggal_rilis"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVData"
+                android:text="@string/tanggal_rilis2"/>
+
+            <TextView
+                android:id="@+id/tv_rilis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggalnya"/>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/TableHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVHeader"
+                android:text="@string/display"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVData"
+                android:text="@string/tipe"/>
+
+            <TextView
+                android:id="@+id/tv_tipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tipenya"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVData"
+                android:text="@string/resolusi"/>
+
+            <TextView
+                android:id="@+id/tv_resolusi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resolusinya"/>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/TableHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVHeader"
+                android:text="@string/platform"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVData"
+                android:text="@string/chipset"/>
+
+            <TextView
+                android:id="@+id/tv_chipset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chipsetnya"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVData"
+                android:text="@string/cpu"/>
+
+            <TextView
+                android:id="@+id/tv_cpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cpunya"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVData"
+                android:text="@string/gpu"/>
+
+            <TextView
+                android:id="@+id/tv_gpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gpunya"/>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/TableHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVHeader"
+                android:text="@string/memori"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVData"
+                android:text="@string/card_slot"/>
+
+            <TextView
+                android:id="@+id/tv_cardslot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cardslot"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TVData"
+                android:text="@string/internal"/>
+
+            <TextView
+                android:id="@+id/tv_memori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/berapa"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
